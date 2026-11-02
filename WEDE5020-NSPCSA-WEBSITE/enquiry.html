@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>NSPCA | Enquiries and Volunteering</title>
+
+<meta name="description" content="Contact the NSPCA to make an enquiry, get involved, volunteer and support animal welfare activities in South Africa.">
+
+<meta name="keywords" content="NSPCA enquiry, volunteer, animal welfare, animal protection, support animals">
+
+<meta name="author" content="National Council of SPCAs">
+
+<link rel="stylesheet" href="css/style.css">
+```
+
+</head>
+
+<body>
+
+```
+<header>
+    <img src="images/logo.png" alt="NSPCA Logo" width="120">
+    <h1>National Council of SPCAs (NSPCA)</h1>
+    <p>Protecting Animals, Preventing Cruelty</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="enquiry.html">Enquiry</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+    <section class="content-section">
+
+        <h2>Volunteer and Sponsor Enquiry</h2>
+
+        <p>
+            The NSPCA relies on people who care about animals and want to make
+            a difference. You can use this form to enquire about volunteering,
+            sponsorship or supporting the work of the NSPCA.
+        </p>
+
+    </section>
+
+    <section class="content-section">
+
+        <h2>Send Us an Enquiry</h2>
+
+        <form id="enquiryForm">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required minlength="3">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="enquiryType">Enquiry Type:</label>
+
+            <select id="enquiryType" name="enquiryType" required>
+                <option value="">Please select</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="sponsor">Sponsorship</option>
+                <option value="general">General Enquiry</option>
+            </select>
+
+            <label for="message">Message:</label>
+
+            <textarea id="message" name="message" rows="6"
+                required minlength="10"></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+
+        <div id="enquiryResponse" aria-live="polite"></div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 National Council of SPCAs. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+```
+
+</body>
+</html>
